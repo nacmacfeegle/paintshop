@@ -14,10 +14,10 @@ You want to mix the colors, so that:
 
 Your program should accept an input file, and print a result.  An example input file is:
 
-5
-1 M 3 G 5 G
-2 G 3 M 4 G
-5 M
+	5
+	1 M 3 G 5 G
+	2 G 3 M 4 G
+	5 M
 
 The first line specifies how many colors there are.
 
@@ -27,16 +27,16 @@ Your program should read an input file like this, and print out either than it i
 
 The output for the above file should be:
 
-G G G G M
+	G G G G M
 
 ...because all customers can be made happy by every paint being prepared as glossy except number 5.
 
 An example of a file which has no solution is:
 
-1
-1 G
-1 M
+	1
+	1 G
+	1 M
 
 Your program should print
 
-No solution exists
+	No solution exists
